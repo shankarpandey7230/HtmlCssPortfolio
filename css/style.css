@@ -19,7 +19,8 @@ body {
 /* header */
 header {
   background: var(--dark);
-  height: 800px;
+  /* height: 800px; */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 87%, 0 100%);
 }
 
 .container {
@@ -49,4 +50,43 @@ header nav {
 }
 header nav .branding {
   margin-right: 3rem;
+}
+/* hero */
+/* .hero .left {
+  background-color: #f2f2f2;
+} */
+.hero {
+  padding: 3rem 0;
+}
+
+.hero .left img {
+  width: 400px;
+  object-fit: cover;
+  border: transparent;
+  border-color: black;
+  border-radius: 5px;
+  margin-top: -15rem;
+}
+.hero .right {
+  color: var(--pure);
+  margin-top: -2rem;
+}
+.hero .right h6 {
+  font-size: 1.6rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+.hero .right h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+.hero .right h1 span {
+  color: var(--primary);
+}
+
+.hero .right p {
+  line-height: 1.9;
+  margin-bottom: 2rem;
 }
