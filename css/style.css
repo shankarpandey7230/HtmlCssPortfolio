@@ -48,14 +48,14 @@ header nav .left a:hover {
 header nav {
   padding: 2rem 0;
 }
-header nav.branding {
+header nav .branding {
   margin-right: 3rem;
 }
 /* hero */
 /* .hero .left {
   background-color: #f2f2f2;
 } */
-.hero {
+x .hero {
   padding: 3rem 0;
 }
 
