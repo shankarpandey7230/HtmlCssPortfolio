@@ -85,6 +85,29 @@ header {
   max-width: 1152px;
   padding: 0 15px;
   margin: 0 auto;
+  /* }
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  } */
 }
 /* navbar */
 header nav .left a {
@@ -155,17 +178,30 @@ x .hero {
   line-height: 1.9;
   margin-bottom: 2rem;
 }
-
+@media (max-width: 923px) {
+  .hero .left img {
+    width: 200px;
+  }
+  .right h6 {
+    margin-top: 10rem;
+    font-size: 0.9rem;
+  }
+  .hero .right h1,
+  .hero .right span,
+  hero.right p {
+    font-size: 1rem;
+  }
+}
 /* about section */
 section {
   padding: 6rem 0;
 }
 
 section.about .about-me-img {
-  height: 450px;
   width: 400px;
   margin-left: 4rem;
   border-radius: 5px;
+  height: 360px;
 }
 
 section.about h1 {
@@ -208,6 +244,12 @@ section.about .social a {
 section.about .social a:hover {
   background: var(--primary);
   transition: all 0.3s ease;
+}
+@media (max-width: 923px) {
+  section.about .about-me-img {
+    width: 200px;
+    height: 360px;
+  }
 }
 /* Section Services */
 .section-heading {
@@ -283,6 +325,12 @@ section.services .card-wrapper .card p {
   font-family: 'Lato', sans-serif;
   color: var(--ternary);
   line-height: 1.6;
+}
+
+@media (max-width: 923px) {
+  section.services .card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 /* Freelancing section */
 section.freelancer {
@@ -386,7 +434,11 @@ section.work .card-wrapper .card img {
   height: 100%;
   width: 100%;
 }
-
+@media (max-width: 923px) {
+  section.work .card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 /* Blog Section */
 section.blog {
   background: var(--dark);
@@ -445,7 +497,14 @@ section.blog .card-wrapper .card .card-content p {
 section.blog .card-wrapper .card .card-content a.read-more {
   font-size: 0.8rem;
 }
-
+@media (max-width: 923px) {
+  section.blog {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 98%, 0 100%);
+  }
+  section.blog .card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 /* contact */
 section.contact .card-wrapper {
   display: grid;
