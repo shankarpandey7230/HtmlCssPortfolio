@@ -26,340 +26,361 @@
     <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- header -->
-    <header>
-      <div class="container">
-        <!-- navbar -->
-        <nav class="flex items-center justify-between">
-          <div class="left flex items-center">
-            <!-- logo -->
-            <div class="branding">
-              <img src="./images/Logo.png" alt="" width="200px" />
+    <div class="site-main-wrapper">
+      <button class="hamberger">
+        <img src="./images/hamberger.png" alt="" />
+      </button>
+      <div class="mobile-nav">
+        <button class="times"><img src="./images/times.svg" /></button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Our Works</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <!-- header -->
+      <header>
+        <div class="container">
+          <!-- navbar -->
+          <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center">
+              <!-- logo -->
+              <div class="branding">
+                <img src="./images/Logo.png" alt="" width="200px" />
+              </div>
+              <!-- menus -->
+              <div class="social">
+                <a href="">Home </a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#work">Our Works</a>
+                <a href="#blog">Blog</a>
+              </div>
+              <!-- end of menus -->
             </div>
-            <!-- menus -->
+            <div class="right">
+              <button class="btn btn-primary">Contact</button>
+            </div>
+          </nav>
+          <!-- end of navbar -->
+          <div class="hero flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+              <img src="./images/man.jpeg" alt="" />
+            </div>
+            <div class="right flex-1">
+              <h6>Shankar Pandey</h6>
+              <h1>I am a Creative <span> Developer </span></h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus odit soluta accusamus, ullam quod commodi nemo a ipsum
+                veritatis eos laborum praesentium, atque culpa? Reiciendis iure
+                recusandae repudiandae earum repellat obcaecati modi laborum
+                provident incidunt atque aliquid debitis laudantium nobis
+                impedit itaque rem minima in, quibusdam nesciunt, non
+                perspiciatis? Dignissimos?
+              </p>
+              <div><button class="btn btn-secondary">Download CV</button></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- end of header -->
+
+      <section id="about" class="about">
+        <div class="container flex items-center">
+          <div class="flex-1">
+            <img class="about-me-img" src="./images/shankar.jpg" alt="" />
+          </div>
+          <div class="flex-1">
+            <h1>About <span>Me</span></h1>
+            <h3>Hello I am Shankar</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laboriosam quidem deleniti inventore in veniam dolorum deserunt
+              numquam, nobis voluptatem obcaecati quae facere at maxime
+              voluptate sint magni nesciunt dolores mollitia. Velit enim tenetur
+              cupiditate expedita asperiores est fugiat voluptatum.
+            </p>
             <div class="social">
-              <a href="">Home </a>
-              <a href="">About</a>
-              <a href="">Services</a>
-              <a href="">Pages</a>
-              <a href="">Blog</a>
+              <a href="#"><i class="fa-solid fa-house"></i> </a>
+              <a href="#"><i class="fa-brands fa-facebook"></i> </a>
+              <a href="#"><i class="fa-brands fa-twitter"></i> </a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i> </a>
+              <a href="#"><i class="fa-brands fa-instagram"></i> </a>
             </div>
-            <!-- end of menus -->
-          </div>
-          <div class="right">
-            <button class="btn btn-primary">Contact</button>
-          </div>
-        </nav>
-        <!-- end of navbar -->
-        <div class="hero flex items-center justify-between">
-          <div class="left flex-1 flex justify-center">
-            <img src="./images/man.jpeg" alt="" />
-          </div>
-          <div class="right flex-1">
-            <h6>Shankar Pandey</h6>
-            <h1>I am a Creative <span> Developer </span></h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              odit soluta accusamus, ullam quod commodi nemo a ipsum veritatis
-              eos laborum praesentium, atque culpa? Reiciendis iure recusandae
-              repudiandae earum repellat obcaecati modi laborum provident
-              incidunt atque aliquid debitis laudantium nobis impedit itaque rem
-              minima in, quibusdam nesciunt, non perspiciatis? Dignissimos?
-            </p>
-            <div><button class="btn btn-secondary">Download CV</button></div>
           </div>
         </div>
-      </div>
-    </header>
-    <!-- end of header -->
-
-    <section class="about">
-      <div class="container flex items-center">
-        <div class="flex-1">
-          <img class="about-me-img" src="./images/shankar.jpg" alt="" />
+      </section>
+      <section id="services" class="services">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Services</h1>
+          <p>I provide high standard clean website for your business</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="./images/brush.svg" alt="" width="90px" />
+              <h2>Graphic Design</h2>
+              <p>
+                Graphic design is a craft where professionals create visual
+                content to communicate messages. By applying visual hierarchy
+                and page layout techniques, designers use typography and
+                pictures to meet users’ specific needs
+              </p>
+            </div>
+            <div class="card">
+              <img src="./images/code.svg" alt="" width="90px" />
+              <h2>Graphic Design</h2>
+              <p>
+                Graphic design is a craft where professionals create visual
+                content to communicate messages. By applying visual hierarchy
+                and page layout techniques, designers use typography and
+                pictures to meet users’ specific needs
+              </p>
+            </div>
+            <div class="card">
+              <img src="./images/bag.svg" alt="" width="90px" />
+              <h2>Graphic Design</h2>
+              <p>
+                Graphic design is a craft where professionals create visual
+                content to communicate messages. By applying visual hierarchy
+                and page layout techniques, designers use typography and
+                pictures to meet users’ specific needs
+              </p>
+            </div>
+            <div class="card">
+              <img src="./images/desktop.svg" alt="" width="90px" />
+              <h2>Graphic Design</h2>
+              <p>
+                Graphic design is a craft where professionals create visual
+                content to communicate messages. By applying visual hierarchy
+                and page layout techniques, designers use typography and
+                pictures to meet users’ specific needs
+              </p>
+            </div>
+            <div class="card">
+              <img src="./images/media.svg" alt="" width="90px" />
+              <h2>Graphic Design</h2>
+              <p>
+                Graphic design is a craft where professionals create visual
+                content to communicate messages. By applying visual hierarchy
+                and page layout techniques, designers use typography and
+                pictures to meet users’ specific needs
+              </p>
+            </div>
+            <div class="card">
+              <img src="./images/phone-2.svg" alt="" width="90px" />
+              <h2>Graphic Design</h2>
+              <p>
+                Graphic design is a craft where professionals create visual
+                content to communicate messages. By applying visual hierarchy
+                and page layout techniques, designers use typography and
+                pictures to meet users’ specific needs
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="flex-1">
-          <h1>About <span>Me</span></h1>
-          <h3>Hello I am Shankar</h3>
+      </section>
+      <section class="freelancer">
+        <h1>I am Available For Web Development</h1>
+        <p>I provide high standard of clean website for business solutions</p>
+        <button class="btn btn-primary">Contact</button>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Client</h1>
+          <p>I provide high standard of clean website</p>
+          <div class="slider">
+            <div class="slide">
+              <img src="./images/man1.jpeg" alt="" />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. In nam
+                laudantium repudiandae iure eum! Repudiandae odio cumque
+                repellendus quisquam molestiae? Esse incidunt culpa tenetur
+                nulla odit cupiditate nihil voluptas. Magni tenetur dolorem
+                cumque qui nostrum, nam totam quo id tempore.
+              </p>
+              <span>~Shankar Pandey, Developer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="work" class="work">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Works</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            laboriosam quidem deleniti inventore in veniam dolorum deserunt
-            numquam, nobis voluptatem obcaecati quae facere at maxime voluptate
-            sint magni nesciunt dolores mollitia. Velit enim tenetur cupiditate
-            expedita asperiores est fugiat voluptatum.
+            I provide high standard clean website for your business solutions
           </p>
-          <div class="social">
-            <a href="#"><i class="fa-solid fa-house"></i> </a>
-            <a href="#"><i class="fa-brands fa-facebook"></i> </a>
-            <a href="#"><i class="fa-brands fa-twitter"></i> </a>
-            <a href="#"><i class="fa-brands fa-pinterest"></i> </a>
-            <a href="#"><i class="fa-brands fa-instagram"></i> </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="services">
-      <div class="container">
-        <h1 class="section-heading"><span>Our</span> Services</h1>
-        <p>I provide high standard clean website for your business</p>
-        <div class="card-wrapper">
-          <div class="card">
-            <img src="./images/brush.svg" alt="" width="90px" />
-            <h2>Graphic Design</h2>
-            <p>
-              Graphic design is a craft where professionals create visual
-              content to communicate messages. By applying visual hierarchy and
-              page layout techniques, designers use typography and pictures to
-              meet users’ specific needs
-            </p>
-          </div>
-          <div class="card">
-            <img src="./images/code.svg" alt="" width="90px" />
-            <h2>Graphic Design</h2>
-            <p>
-              Graphic design is a craft where professionals create visual
-              content to communicate messages. By applying visual hierarchy and
-              page layout techniques, designers use typography and pictures to
-              meet users’ specific needs
-            </p>
-          </div>
-          <div class="card">
-            <img src="./images/bag.svg" alt="" width="90px" />
-            <h2>Graphic Design</h2>
-            <p>
-              Graphic design is a craft where professionals create visual
-              content to communicate messages. By applying visual hierarchy and
-              page layout techniques, designers use typography and pictures to
-              meet users’ specific needs
-            </p>
-          </div>
-          <div class="card">
-            <img src="./images/desktop.svg" alt="" width="90px" />
-            <h2>Graphic Design</h2>
-            <p>
-              Graphic design is a craft where professionals create visual
-              content to communicate messages. By applying visual hierarchy and
-              page layout techniques, designers use typography and pictures to
-              meet users’ specific needs
-            </p>
-          </div>
-          <div class="card">
-            <img src="./images/media.svg" alt="" width="90px" />
-            <h2>Graphic Design</h2>
-            <p>
-              Graphic design is a craft where professionals create visual
-              content to communicate messages. By applying visual hierarchy and
-              page layout techniques, designers use typography and pictures to
-              meet users’ specific needs
-            </p>
-          </div>
-          <div class="card">
-            <img src="./images/phone.svg" alt="" width="90px" />
-            <h2>Graphic Design</h2>
-            <p>
-              Graphic design is a craft where professionals create visual
-              content to communicate messages. By applying visual hierarchy and
-              page layout techniques, designers use typography and pictures to
-              meet users’ specific needs
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="freelancer">
-      <h1>I am Available For Web Development</h1>
-      <p>I provide high standard of clean website for business solutions</p>
-      <button class="btn btn-primary">Contact</button>
-    </section>
-    <section class="reviews">
-      <div class="container">
-        <h1 class="section-heading"><span>Our</span> Client</h1>
-        <p>I provide high standard of clean website</p>
-        <div class="slider">
-          <div class="slide">
-            <img src="./images/man1.jpeg" alt="" />
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. In nam
-              laudantium repudiandae iure eum! Repudiandae odio cumque
-              repellendus quisquam molestiae? Esse incidunt culpa tenetur nulla
-              odit cupiditate nihil voluptas. Magni tenetur dolorem cumque qui
-              nostrum, nam totam quo id tempore.
-            </p>
-            <span>~Shankar Pandey, Developer</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="work">
-      <div class="container">
-        <h1 class="section-heading"><span>Our</span> Works</h1>
-        <p>I provide high standard clean website for your business solutions</p>
-        <div class="card-wrapper">
-          <div class="card">
-            <div class="overlay">
-              <span>Category</span>
-              <a href="#"> Web Development</a>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#"> Web Development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
             </div>
-            <img src="./images/ph-1.png" alt="" />
-          </div>
-          <div class="card">
-            <div class="overlay">
-              <span>Category</span>
-              <a href="#"> Web Development</a>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#"> Web Development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
             </div>
-            <img src="./images/ph-1.png" alt="" />
-          </div>
-          <div class="card">
-            <div class="overlay">
-              <span>Category</span>
-              <a href="#"> Web Development</a>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#"> Web Development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
             </div>
-            <img src="./images/ph-1.png" alt="" />
-          </div>
-          <div class="card">
-            <div class="overlay">
-              <span>Category</span>
-              <a href="#"> Web Development</a>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#"> Web Development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
             </div>
-            <img src="./images/ph-1.png" alt="" />
-          </div>
-          <div class="card">
-            <div class="overlay">
-              <span>Category</span>
-              <a href="#"> Web Development</a>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#"> Web Development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
             </div>
-            <img src="./images/ph-1.png" alt="" />
-          </div>
-          <div class="card">
-            <div class="overlay">
-              <span>Category</span>
-              <a href="#"> Web Development</a>
-            </div>
-            <img src="./images/ph-1.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="blog">
-      <div class="container">
-        <h1 class="section-heading"><span>Our</span> Blog</h1>
-        <p>
-          I provide high standard of clean website for you business solutions
-        </p>
-        <div class="card-wrapper">
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/article-ph-1.png" alt="" />
-            </div>
-            <div class="card-content">
-              <a href="#"><h1>Coding in Progress. Keep Going</h1> </a>
-              <span>4th March 2024 </span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Commodi, facere nostrum itaque hic tenetur, corporis tempore
-                quam fuga ipsa praesentium, fugiat consectetur deserunt. In
-                aliquid quo vero dolore doloribus, rerum iure quam dignissimos
-                omnis neque molestias facere numquam praesentium eaque.
-              </p>
-              <a href="">Read More</a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/article-ph-1.png" alt="" />
-            </div>
-            <div class="card-content">
-              <a class="read-more" href="#"
-                ><h1>Coding in Progress. Keep Going</h1>
-              </a>
-              <span>4th March 2024 </span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Commodi, facere nostrum itaque hic tenetur, corporis tempore
-                quam fuga ipsa praesentium, fugiat consectetur deserunt. In
-                aliquid quo vero dolore doloribus, rerum iure quam dignissimos
-                omnis neque molestias facere numquam praesentium eaque.
-              </p>
-              <a href="">Read More</a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="img-wrapper">
-              <img src="./images/article-ph-1.png" alt="" />
-            </div>
-            <div class="card-content">
-              <a href="#"><h1>Coding in Progress. Keep Going</h1> </a>
-              <span>4th March 2024 </span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Commodi, facere nostrum itaque hic tenetur, corporis tempore
-                quam fuga ipsa praesentium, fugiat consectetur deserunt. In
-                aliquid quo vero dolore doloribus, rerum iure quam dignissimos
-                omnis neque molestias facere numquam praesentium eaque.
-              </p>
-              <a href="">Read More</a>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#"> Web Development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="contact">
-      <div class="container">
-        <h1 class="section-heading">Contact<span> Us</span></h1>
-        <p>
-          I provide a high standard of clean website for your business solutions
-        </p>
-        <div class="card-wrapper">
-          <div class="card">
-            <img src="./images/phone-2.svg" alt="" width="50px" />
-            <h1>Call On</h1>
-            <h6>061410104064</h6>
-          </div>
-          <div class="card">
-            <img src="./images/msg.svg" alt="" width="50px" />
-            <h1>Email Us</h1>
-            <h6>shankarpandey7230@gmail.com</h6>
-          </div>
-          <div class="card">
-            <img src="./images/map.svg" alt="" width="50px" />
-            <h1>Visit Office</h1>
-            <h6>23 Clyde Street</h6>
+      </section>
+      <section id="blog" class="blog">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Blog</h1>
+          <p>
+            I provide high standard of clean website for you business solutions
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/article-ph-1.png" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#"><h1>Coding in Progress. Keep Going</h1> </a>
+                <span>4th March 2024 </span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi, facere nostrum itaque hic tenetur, corporis tempore
+                  quam fuga ipsa praesentium, fugiat consectetur deserunt. In
+                  aliquid quo vero dolore doloribus, rerum iure quam dignissimos
+                  omnis neque molestias facere numquam praesentium eaque.
+                </p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/article-ph-1.png" alt="" />
+              </div>
+              <div class="card-content">
+                <a class="read-more" href="#"
+                  ><h1>Coding in Progress. Keep Going</h1>
+                </a>
+                <span>4th March 2024 </span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi, facere nostrum itaque hic tenetur, corporis tempore
+                  quam fuga ipsa praesentium, fugiat consectetur deserunt. In
+                  aliquid quo vero dolore doloribus, rerum iure quam dignissimos
+                  omnis neque molestias facere numquam praesentium eaque.
+                </p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./images/article-ph-1.png" alt="" />
+              </div>
+              <div class="card-content">
+                <a href="#"><h1>Coding in Progress. Keep Going</h1> </a>
+                <span>4th March 2024 </span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi, facere nostrum itaque hic tenetur, corporis tempore
+                  quam fuga ipsa praesentium, fugiat consectetur deserunt. In
+                  aliquid quo vero dolore doloribus, rerum iure quam dignissimos
+                  omnis neque molestias facere numquam praesentium eaque.
+                </p>
+                <a href="">Read More</a>
+              </div>
+            </div>
           </div>
         </div>
-        <form action="">
-          <div class="input-wrap">
-            <input type="text" placeholder="Your Name*" />
+      </section>
+      <section class="contact">
+        <div class="container">
+          <h1 class="section-heading">Contact<span> Us</span></h1>
+          <p>
+            I provide a high standard of clean website for your business
+            solutions
+          </p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="./images/phone-2.svg" alt="" width="50px" />
+              <h1>Call On</h1>
+              <h6>061410104064</h6>
+            </div>
+            <div class="card">
+              <img src="./images/msg.svg" alt="" width="50px" />
+              <h1>Email Us</h1>
+              <h6>shankarpandey7230@gmail.com</h6>
+            </div>
+            <div class="card">
+              <img src="./images/map.svg" alt="" width="50px" />
+              <h1>Visit Office</h1>
+              <h6>23 Clyde Street</h6>
+            </div>
+          </div>
+          <form action="">
+            <div class="input-wrap">
+              <input type="text" placeholder="Your Name*" />
 
-            <input type="email" placeholder="Your Email*" />
-          </div>
-          <div class="input-wrap-2">
-            <input type="text" placeholder="Your subject" />
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Your Message"
-            ></textarea>
-          </div>
-          <div class="btn-wrapper">
-            <button class="btn btn-primary">Send Message</button>
-          </div>
-        </form>
-      </div>
-    </section>
-    <footer>
-      <img class="footer-logo" src="./images/logo.png" alt="" width="90px" />
-      <div class="footer-socials">
-        <a href="#"><i class="fa-solid fa-house"></i> </a>
-        <a href="#"><i class="fa-brands fa-facebook"></i> </a>
-        <a href="#"><i class="fa-brands fa-twitter"></i> </a>
-        <a href="#"><i class="fa-brands fa-pinterest"></i> </a>
-        <a href="#"><i class="fa-brands fa-instagram"></i> </a>
-      </div>
-      <div class="copyright">
-        @Copyright 2024 Shankar Pandey All rights reserved
-      </div>
-    </footer>
+              <input type="email" placeholder="Your Email*" />
+            </div>
+            <div class="input-wrap-2">
+              <input type="text" placeholder="Your subject" />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <img class="footer-logo" src="./images/logo.png" alt="" width="90px" />
+        <div class="footer-socials">
+          <a href="#"><i class="fa-solid fa-house"></i> </a>
+          <a href="#"><i class="fa-brands fa-facebook"></i> </a>
+          <a href="#"><i class="fa-brands fa-twitter"></i> </a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i> </a>
+          <a href="#"><i class="fa-brands fa-instagram"></i> </a>
+        </div>
+        <div class="copyright">
+          @Copyright 2024 Shankar Pandey All rights reserved
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
